@@ -16,7 +16,11 @@ Para rodar o script, você precisa ter instalado no ambiente:
     
 - Image (dentro do terminal Python)
   * Instalação através do comando: `pip install Image`
- 
+
+- Para o devido funcionamento do script, é necessário que a imagem original esteja no mesmo diretório do arquivo .py e que esteja nomeada com o seguinte nome: `imgfundo.png`.
+Para a execução do script através do terminal, você pode executar o seguinte comando: `python caminho_para_o_arquivo\removefundo.py`.
+Se você estiver executando o comando dentro do mesmo diretório onde se encontra o arquivo .py, basta executar: `python .\removefundo.py`.
+
 # Tecnologias
 Projeto desenvolvido totalmente com o uso da linguagem de programação Python, utilizando também algumas bibliotecas, também em Python, já citadas acima.
 
